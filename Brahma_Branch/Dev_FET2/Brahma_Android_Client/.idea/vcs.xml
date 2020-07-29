@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/gperftools" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/libunwind" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/buildtools" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/buildtools/clang_format/script" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/buildtools/third_party/libc++/trunk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/buildtools/third_party/libc++abi/trunk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/buildtools/third_party/libunwind/trunk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/testing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/third_party/Python-Markdown" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/third_party/cherry" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/third_party/deqp/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/third_party/glmark2/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/third_party/glslang/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/third_party/googletest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/third_party/googletest/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/third_party/jsoncpp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/third_party/jsoncpp/source" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/third_party/libjpeg_turbo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/third_party/libpng/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/third_party/rapidjson/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/third_party/spirv-headers/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/third_party/spirv-tools/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/third_party/vulkan-headers/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/third_party/vulkan-loader/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/third_party/vulkan-tools/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/third_party/vulkan-validation-layers/src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/third_party/yasm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/third_party/yasm/source/patched-yasm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/third_party/zlib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/tools/clang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/brahmalibrary/libs/src/third_party/angle.new/tools/md_browser" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Brahma_Android_Client.iml" filepath="$PROJECT_DIR$/Brahma_Android_Client.iml" group="Brahma_Android_Client" />
+      <module fileurl="file://$PROJECT_DIR$/Dev_FET2-Brahma_Android_Client.iml" filepath="$PROJECT_DIR$/Dev_FET2-Brahma_Android_Client.iml" group="Brahma_Android_Client" />
+      <module fileurl="file://$PROJECT_DIR$/brahmalibrary/brahmalibrary.iml" filepath="$PROJECT_DIR$/brahmalibrary/brahmalibrary.iml" group="Brahma_Android_Client/brahmalibrary" />
+    </modules>
+  </component>
+</project>

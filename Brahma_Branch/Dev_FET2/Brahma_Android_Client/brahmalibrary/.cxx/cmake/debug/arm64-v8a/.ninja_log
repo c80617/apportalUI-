@@ -1,0 +1,6 @@
+# ninja log v5
+1	430	1595929054	CMakeFiles/native-lib.dir/renderer.cpp.o	eaee86630895bc0e
+1	738	1595929054	CMakeFiles/native-lib.dir/native-lib.cpp.o	b026e30ea4ec832
+1	1101	1595929055	CMakeFiles/native-lib.dir/RenderServer.cpp.o	360d53b353c79fee
+1	1252	1595929055	CMakeFiles/native-lib.dir/OpenglEsStreamHandler.cpp.o	4bfd07b039026f32
+1252	1325	1595929055	/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	192ce92acd10b334

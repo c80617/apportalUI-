@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 The MITRE Corporation, All Rights Reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this work except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources>
+    <!-- Preference keys -->
+    <string name="preferenceKey_sensors_minimumDelay">sensors_minimumDelay</string>
+    <string name="preferenceKey_sensor_accelerometer">sensor_accelerometer</string>
+    <string name="preferenceKey_sensor_ambientTemperature">sensor_ambientTemperature</string>
+    <string name="preferenceKey_sensor_gyroscope">sensor_gyroscope</string>
+    <string name="preferenceKey_sensor_light">sensor_light</string>
+    <string name="preferenceKey_sensor_magneticField">sensor_magneticField</string>
+    <string name="preferenceKey_sensor_pressure">sensor_pressure</string>
+    <string name="preferenceKey_sensor_proximity">sensor_proximity</string>
+    <string name="preferenceKey_sensor_relativeHumidity">sensor_relativeHumidity</string>
+    <string name="preferenceKey_sensor_temperature">sensor_temperature</string>
+    <string name="preferenceKey_sensor_gravity">sensor_gravity</string>
+    <string name="preferenceKey_sensor_linearAcceleration">sensor_linearAcceleration</string>
+    <string name="preferenceKey_sensor_orientation">sensor_orientation</string>
+    <string name="preferenceKey_sensor_rotationVector">sensor_rotationVector</string>
+    <string name="preferenceKey_performance_takeMeasurements">performance_takeMeasurements</string>
+    <string name="preferenceKey_performance_measureInterval">performance_measureInterval</string>
+    <string name="preferenceKey_performance_pingInterval">performance_pingInterval</string>
+    <string name="preferenceKey_connection_useBackground">connection_useBackground</string>
+    <string name="preferenceKey_connection_useMTM">connection_useMTM</string>
+    <string name="preferenceKey_connection_showEncryption">connection_showEncryption</string>
+    <string name="preferenceKey_connection_useDesktopMode">connection_useDesktopMode</string>
+    <string name="preferenceKey_connection_useDirectConn">connection_useDirectConn</string>
+    <string name="preferenceKey_connection_useLandscape">connection_useLandscape</string>
+
+    <!-- Preference value defaults -->
+    <string name="preferenceValue_sensors_minimumDelay">1000</string>
+    <string name="preferenceValue_sensor_accelerometer">true</string>
+    <string name="preferenceValue_sensor_ambientTemperature">true</string>
+    <string name="preferenceValue_sensor_gyroscope">false</string>
+    <string name="preferenceValue_sensor_light">true</string>
+    <string name="preferenceValue_sensor_magneticField">true</string>
+    <string name="preferenceValue_sensor_pressure">true</string>
+    <string name="preferenceValue_sensor_proximity">true</string>
+    <string name="preferenceValue_sensor_relativeHumidity">true</string>
+    <string name="preferenceValue_sensor_temperature">true</string>
+    <string name="preferenceValue_sensor_gravity">false</string>
+    <string name="preferenceValue_sensor_linearAcceleration">false</string>
+    <string name="preferenceValue_sensor_orientation">false</string>
+    <string name="preferenceValue_sensor_rotationVector">false</string>
+    <string name="preferenceValue_performance_takeMeasurements">false</string>
+    <string name="preferenceValue_performance_measureInterval">86400000</string>
+    <string name="preferenceValue_performance_pingInterval">1000</string>
+    <string name="preferenceValue_connection_useBackground">false</string>
+    <string name="preferenceValue_connection_useMTM">false</string>
+    <string name="preferenceValue_connection_showEncryption">false</string>
+    <string name="preferenceValue_connection_useDesktopMode">false</string>
+    <string name="preferenceValue_connection_useDirectConn">false</string>
+    <string name="preferenceValue_connection_useLandscape">false</string>
+    
+    <!-- Preference page elements -->
+    <string name="preferenceScreen_title">Brahma 設定</string>
+
+    <string name="preferenceCategory_connectionPreferences_title">連線設定</string>
+
+    <string name="preferenceScreen_sensors_title">傳感器設定</string>
+    <string name="preferenceScreen_sensors_summary">調整傳感器數據</string>
+
+    <string name="editTextPreference_sensors_minimumDelay_title">最小更新時間 (μs)</string>
+    <string name="editTextPreference_sensors_minimumDelay_summary">預設: 1000μs (100Hz)</string>
+
+    <string name="preferenceCategory_physicalSensors">物理傳感器</string>
+    <string name="preferenceCategory_virtualSensors_title">虛擬傳感器</string>
+
+    <string name="checkBoxPreference_sensor_accelerometer_title">加速度</string>             <!-- physical -->
+    <string name="checkBoxPreference_sensor_ambientTemperature_title">環境溫度</string>  <!-- physical -->
+    <string name="checkBoxPreference_sensor_gravity_title">重力</string>                         <!-- virtual -->
+    <string name="checkBoxPreference_sensor_gyroscope_title">陀螺儀</string>                     <!-- physical -->
+    <string name="checkBoxPreference_sensor_light_title">光線</string>                             <!-- physical -->
+    <string name="checkBoxPreference_sensor_linearAcceleration_title">線性加速度</string>  <!-- virtual -->
+    <string name="checkBoxPreference_sensor_magneticField_title">磁場</string>            <!-- physical -->
+    <string name="checkBoxPreference_sensor_orientation_title">方向</string>                 <!-- virtual -->
+    <string name="checkBoxPreference_sensor_pressure_title">壓力</string>                       <!-- physical -->
+    <string name="checkBoxPreference_sensor_proximity_title">接近傳感器</string>                     <!-- physical -->
+    <string name="checkBoxPreference_sensor_relativeHumidity_title">相對濕度</string>      <!-- physical -->
+    <string name="checkBoxPreference_sensor_rotationVector_title">旋轉方向</string>          <!-- virtual -->
+    <string name="checkBoxPreference_sensor_temperature_title">溫度</string>                 <!-- physical -->
+
+    <string name="preferenceCategory_developerPreferences_title">開發者設定</string>
+
+    <string name="preferenceScreen_performance_title">效能</string>
+    <string name="preferenceScreen_performance_summary">調整Instrumentation數值</string>
+
+    <string name="preferenceCategory_instrumentation_title">Instrumentation</string>
+
+    <string name="checkBoxPreference_performance_takeMeasurements_title">使用測量</string>
+    <string name="editTextPreference_performance_measureInterval_title">測量間隔 (ms)</string>
+    <string name="editTextPreference_performance_measureInterval_summary">預設: 1000ms</string>
+    <string name="editTextPreference_performance_pingInterval_title">發送Ping的間隔 (ms)</string>
+    <string name="editTextPreference_performance_pingInterval_summary">預設: 5000ms</string>
+    <string name="preference_performance_exportData_text">輸出數據到CSV(s)</string> <!-- button in pref menu -->
+    <string name="preference_performance_exportData_dialog_message">確定要將效能數據輸出到外部儲存空間嗎？這將花費幾秒的時間。</string>
+    <string name="preference_performance_exportData_dialog_positiveButton">繼續</string>
+    <string name="preference_performance_exportData_dialog_negativeButton">取消</string>
+    <string name="preference_performance_exportData_toast_unavailable">外部儲存空間不可用</string>
+    <string name="preference_performance_exportData_toast_fail">無法建立資料夾</string>
+    <string name="preference_performance_exportData_toast_error">輸出錯誤</string>
+    <string name="preference_performance_exportData_toast_success">輸出成功</string>
+    <string name="preference_performance_exportData_toast_noneWritten">沒有被錄製的數據輸出</string>
+    <string name="preference_performance_wipeData_text">清除效能數據</string> <!-- button in pref menu -->
+    <string name="preference_performance_wipeData_dialog_message">確定要清除所有在資料哭中的消能數據嗎？這並不會影響已經輸出在外部儲存空間的數據。</string>
+    <string name="preference_performance_wipeData_dialog_positiveButton">繼續</string>
+    <string name="preference_performance_wipeData_dialog_negativeButton">取消</string>
+    <string name="preference_performance_wipeData_toast_success">效能數據已被清除</string>
+
+    <string name="preferenceScreen_connection_title">連線</string>
+    <string name="preferenceScreen_connection_summary">控制連線選項</string>
+
+    <string name="preferenceCategory_general_title">一般</string>
+
+    <string name="checkBoxPreference_connection_useBackground_title">使用背景連線</string>
+    <string name="checkBoxPreference_connection_useBackground_summary">同意連線服務在背景保持運行</string>
+
+    <string name="preferenceCategory_security_title">安全性</string>
+
+    <string name="checkBoxPreference_connection_useMTM_title">顯示憑證對話筐</string>
+    <string name="checkBoxPreference_connection_useMTM_summary">允許接受不受信任的證書;使用固定證書時不允許使用此選項</string>
+    <string name="checkBoxPreference_connection_showEncryption_title">解鎖加密選項</string>
+    <string name="checkBoxPreference_connection_showEncryption_summary">允許設置連接的加密類型</string>
+    <string name="checkBoxPreference_connection_useDesktopMode_title">使用桌面模式</string>
+    <string name="checkBoxPreference_connection_useDesktopMode_summary">允許使用整個虛擬桌面，而不只是應用程序</string>
+    <string name="checkBoxPreference_connection_useDirectConn_title">直接連線</string>
+    <string name="checkBoxPreference_connection_useDirectConn_summary">在一開始直接使用清單第一順位連線</string>
+    <string name="checkBoxPreference_connection_useLandscape_title">螢幕橫向連線</string>
+    <string name="checkBoxPreference_connection_useLandscape_summary">螢幕橫向</string>
+
+</resources>

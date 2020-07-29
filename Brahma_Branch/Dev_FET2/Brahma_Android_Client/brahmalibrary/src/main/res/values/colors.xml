@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_primary">#47c4d6</color>
+    <color name="color_primaryDark">#BEBEBE</color>
+    <color name="color_accent">@color/md_blue_50</color>
+    <color name="color_primaryText">@android:color/black</color>
+    <color name="item_click">#EA0000</color>
+    <color name="item_nomal">#ffffff</color>
+    <color name="text_color">#444444</color>
+    <color name="text_color2">#666666</color>
+    <color name="bg_biometric_prompt_dialog">#99000000</color>
+    <color name="text_quaternary">#CDCED0</color>
+    <color name="text_red">#FF5555</color>
+    <color name="text_green">#82C785</color>
+    <color name="candidate_normal">#ff000000</color>
+    <color name="touch_id">#e81551</color>
+    <color name="icActive">#FFFFFFFF</color>
+    <color name="icFocused">#DDFFFFFF</color>
+    <color name="icPressed">#AAFFFFFF</color>
+</resources>

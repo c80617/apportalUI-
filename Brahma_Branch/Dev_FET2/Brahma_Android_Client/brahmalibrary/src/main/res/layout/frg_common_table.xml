@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wcitui.fragment.SearchFragment" >
+
+    <EditText
+        android:id="@+id/textViewConnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search"
+        android:inputType="textAutoComplete"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/color_primaryText"
+        android:textColorHint="#5555"
+        android:visibility="visible" />
+
+    <ListView
+        android:id="@+id/lvFrgtab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewConnect" />
+</RelativeLayout>

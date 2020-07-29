@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright (c) 2013 The MITRE Corporation, All Rights Reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this work except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources>
+    <string name="app_name">FET eForm</string>
+    <string name="brahmaActivity_toast_sessionMaxTimeout">APPortal connection has reached the maximum time limit, please re-certify.</string>
+    <string name="exit">Exit</string>
+    <string name="brahmalogin_buttonlogin">Login</string>
+    <string name="appRTC_toast_connection_start">Connecting</string>
+    <string name="appRTC_toast_connection_notFound">Connection info not found!</string>
+    <string name="appRTC_toast_connection_finish">Error, connection has been closed</string>
+    <string name="appRTC_toast_socketConnector_failUntrustedServer">Error connecting (untrusted server certificate)</string>
+    <string name="appRTC_toast_socketConnector_failSSLHandshake">Error during SSL handshake</string>
+    <string name="appRTC_toast_socketConnector_failSSL">Error connecting (check your encryption settings)</string>
+    <string name="appRTC_toast_socketConnector_404">Error connecting (server not found)</string>
+    <string name="appRTC_toast_socketConnector_fail">Error connecting</string>
+    <string name="appRTC_toast_socketConnector_check">Check your network or contact with the administrator</string>
+    <string name="appRTC_toast_socketConnector_nohttprespons">No Http Response</string>
+    <string name="appRTC_toast_socketConnector_success">Connected to host</string>
+    <string name="appRTC_toast_brahmaAuthenticator_fail">Authentication failed, try again</string>
+    <string name="appRTC_toast_brahmaAuthenticator_passwordChangeFail">Authentication failed, try again</string>
+    <string name="appRTC_toast_brahmaAuthenticator_interrupted">Connection interrupted</string>
+    <string name="appRTC_toast_brahmaAuthenticator_success">Authenticated successfully</string>
+    <string name="appRTC_toast_brahmaAuthenticator_bypassed">Found stored session information</string>
+    <string name="appRTC_toast_brahmaReadyWait_fail">Server failed to initialize VM.</string>
+    <string name="appRTC_toast_brahmaReadyWait_success">VM is ready, querying for channel info</string>
+    <!--<string name="appRTC_toast_getIceServers_start">Waiting for ICE candidates…</string>-->
+    <string name="appRTC_toast_getIceServers_start">Waiting…</string>
+    <string name="appRTC_toast_clientHandler_start">Creating…</string>
+    <!--<string name="appRTC_toast_clientHandler_finish">Remote end hung up; dropping PeerConnection</string>-->
+    <string name="appRTC_toast_clientHandler_finish">Remote end hung up; dropping...</string>
+    <string name="appRTC_toast_sdpObserver_sendOffer">Connected</string>
+    <string name="appRTC_toast_noguest">No have avail vm for use</string>
+
+    <string name="appList_toast_notFound">Couldn\'t find requested app</string>
+
+    <!-- AppList toast resources -->
+    <string name="intentHandler_toast_noTelephonyCDMA">This device cannot make phone calls!</string>
+    <string name="intentHandler_toast_noTelephonyGSM">This device cannot make phone calls!\n(do you need to check your SIM card?)</string>
+
+    <!-- APPortalActivity dialog resources -->
+    <string name="authPrompt_title_normal">Please enter password</string>
+    <string name="authPrompt_title_passwordChange">Change password</string>
+    <string name="authPrompt_button_positive_text">Submit</string>
+    <string name="authPrompt_button_negative_text">OK!</string>
+    <string name="authPrompt_button_negative_text_c">Cancel</string>
+    <string name="authPrompt_title_ip">Input connection Info</string>
+
+    <!-- AppRTC dialog resources -->
+    <string name="appRTC_progressDialog_title">Starting…</string>
+    <string name="appRTC_progressDialog_message">Please wait while the connection is established. This may take a minute if the server needs to set up your environment.</string>
+
+    <!-- Menu resources -->
+    <string name="menu_title_preferences">Preferences</string>
+    <string name="menu_title_Camera">Camera</string>
+    <string name="menu_title_refreshAppListQuick">Refresh apps (quick)</string>
+    <string name="menu_title_refreshAppListFull">Refresh apps (full)</string>
+    <string name="contextMenu_appList_addFavorite">Add to favorites</string>
+    <string name="contextMenu_appList_removeFavorite">Remove from favorites</string>
+    <string name="contextMenu_appList_createShortcut">Create shortcut</string>
+    <string name="contextMenu_appList_removeShortcut">Remove shortcuts</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Open <navig></navig>ation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="pref_ordered_default" translatable="false">true</string>
+    <string name="pref_data_protocol_default" translatable="false"></string>
+    <string name="pref_negotiated_default" translatable="false">false</string>
+
+    <string name="all_machine_busy">All machines are currently busy right now</string>
+    <!--handle exception-->
+    <string name="callactivity_locationHandler_initFailed">Location initialization failed</string>
+    <string name="appRTC_toast_permission_check">Please check your permission is granted</string>
+    <string name="appRTC_toast_qrcode_failed">QRcode login failed</string>
+    <string name="get_app_list">Access app list,please wait...</string>
+    <string name="login_wait">Login,Please wait...</string>
+    <string name="scan_qrcode_error">QRcode is wrong!Please check your QRcode.</string>
+    <string name="check_input">Please check your input!</string>
+    <string name="check_account_or_password">Check your account or password</string>
+    <string name="have_new_app_version">App has a new version</string>
+    <string name="update_app_or_not">Update your app right now?</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit_app">Quit appliction right now?</string>
+    <string name="exit_app_description">If you do not update the version, you will not be able to use it and will quit the application.</string>
+    <string name="mute">Mute</string>
+    <string name="open_gps">Your location is disable</string>
+    <string name="open_gps_description">Go to the settings page to turn on the location? \nIf the location is not turned on, will not be able to use related features.</string>
+    <string name="yes">Yes</string>
+    <string name="check_input_host">Please check your host</string>
+    <string name="SCAN_OR_UPLOAD">Scan or upload QRcode</string>
+    <string name="SELECT_QRCODE_METHOD">Please select QRcode upload method.</string>
+    <string name="SCAN_QRCODE">Scan QRcode</string>
+    <string name="UPLOAD_QRCODE">Upload QRcode</string>
+    <string name="NO_HAS_CAREMA_PERMISSION">Camera permission is close!  You can\'t use camera to take pictures.</string>
+    <string name="open_camera">Your camera is disable</string>
+    <string name="open_camera_description">Go to the settings page to turn on the camera? \nIf the camera is not turned on, will not be able to use related features.</string>
+    <string name="open_permission">Check app\'s permission.</string>
+    <string name="open_permission_description">Go to the settings page to grant the permissions? \nIf the permission is not granted, will not be able to use the app.</string>
+    <string name="is_not_secure">Please check your email format.</string>
+    <string name="welcome_connect_success">Connection Success.</string>
+    <string name="welcome_connect_failed">Connection Failed.\nPlease check your network and permission!</string>
+    <string name="failed_to_parse_json_response">Failed to parse JSON response</string>
+    <string name="biometric_dialog_cancel">Cancel</string>
+    <string name="biometric_dialog_title">Verification</string>
+    <string name="biometric_dialog_subtitle">Verify biometric to continue.</string>
+    <string name="biometric_dialog_state_normal">Biometric sensor</string>
+    <string name="biometric_dialog_state_failed">Failed to identify, please try again.</string>
+    <string name="biometric_dialog_state_error">Verification error, please enter password.</string>
+    <string name="biometric_dialog_state_error_enable_process">Verification error, setup failed.</string>
+    <string name="biometric_dialog_state_succeeded">Verification successful.</string>
+    <string name="biometric_dialog_use_password">Use Password</string>
+    <string name="appRTC_toast_login_failed">Login failed, please try again later.</string>
+    <string name="brahmaActivity_toast_noAccessToken">No accesstoken, please try again later.</string>
+
+    <!-- Titles for IME  -->
+    <string name="ime_name">VMI IME</string>
+    <string name="prefs_licensing">License</string>
+    <string name="prefs_vibrate_title">Keyboard vibration</string>
+    <string name="prefs_vibrate_key">prefs_vibrate</string>
+    <string name="prefs_sound_title">Key sound</string>
+    <string name="prefs_sound_key">prefs_sound</string>
+    <string name="prefs_qwerty5row_title">Qwerty English Keyboard</string>
+    <string name="prefs_qwerty5row_key">prefs_qwerty5row</string>
+    <string name="prefs_qwerty5row_summary">Whether to add a row of numeric keys to the English keyboard (will be compressed to the keyboard size)</string>
+    <string name="prefs_ms3_key">prefs_ms3</string>
+    <string name="str_needsreopen">In order to use a hardware keyboard, please collapse the keyboard before opening it</string>
+    <string name="str_notavailable">Not available</string><!-- Menu resources -->
+    <string name="menu_barcodescan">QR code scan</string>
+    <string name="menu_voiceinput">Voice input</string>
+    <string name="menu_settings">IME setting</string>
+    <string name="menu_switchIME">switch IME</string><!-- Barcode Activity -->
+    <string name="barcode_missing">You need to install a ZXing barcode scanner to use QR code entry. Would you like to install from Market?</string><!-- Voice Activity -->
+    <string name="voice_missing">Google Voice Input Support for Your Device (Requires Android Support)</string>
+    <string name="voice_speaknow">Speak now</string>
+    <string name="voice_chooseone">Choose one</string>
+
+    <string name="suggestion">Suggestion</string>
+    <string name="update_verfication">Update verification?</string>
+    <string name="version_check">Version check</string>
+    <string name="checking">Checking...</string>
+    <string name="reconnecting">Reconnecting...</string>
+    <string name="check_permission">Check permission...</string>
+    <string name="check_network">Check network...</string>
+    <string name="reconnect">Reconnect</string>
+    <string name="version">Version:</string>
+    <string name="channel_error_title">Channel error</string>
+    <string name="reset_password">Reset password</string>
+    <string name="IME_message">Go to the Settings page, enable: Gboard input method and set as the default input method.\n\nIf using other input methods may cause unexpected errors, go to set up?</string>
+    <string name="verficiation">Verification</string>
+    <string name="verficiation_message">Using biometrics to login.\nUser account :</string>
+    <string name="no_bio_record">There is no biometric record in your device.</string>
+    <string name="check_input_port">Please check your port</string>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="summary_choose_ringtone">Choose notification sound</string>
+
+    <string name="title_resolution">Select Resolution</string>
+    <string name="key_resolution">Resolution</string>
+    <string name="title_version">Version</string>
+    <string name="pref_header_about">About</string>
+    <string name="password">Password</string>
+    <string name="user">Username</string>
+    <string name="port">Port</string>
+    <string name="host">Host</string>
+    <string name="general">General</string>
+    <string name="fingerprint">Use biometric to login</string>
+    <string name="title_bandwidth">Bandwidth monitor</string>
+    <string name="key_bandwidth">Bandwidth</string>
+    <string name="Location_message">若不給予位置權限,將無法取得正確的位置資訊.</string>
+    <string name="IME_message2">Recommended use: Gboard input method, if you use other input methods may cause unexpected errors.</string>
+    <string name="network_setting">Network Setting</string>
+    <string name="title_host">Host</string>
+    <string name="title_deviceID">Device ID</string>
+    <string name="key_host">Host</string>
+    <string name="key_deviceID">Device ID</string>
+    <string name="copy_success">Copy success</string>
+    <string name="key_port">Port</string>
+    <string name="title_port">Port</string>
+    <string name="please_open_permission">Please confirm the permission has been granted and log in again.</string>
+    <string name="https_no_response">Failed to connect to server,please try again later.</string>
+    <string name="success">Success!</string>
+    <string name="fail">Fail!</string>
+    <string name="capture_button_alt">Capture</string>
+    <string name="switch_camera_button_alt">Switch camera</string>
+    <string name="gallery_button_alt">Gallery</string>
+    <string name="back_button_alt">Back</string>
+    <string name="share_button_alt">Share</string>
+    <string name="share_hint">Share using</string>
+    <string name="capture_mode_camera">Camera</string>
+    <string name="capture_mode_hdr">HDR</string>
+    <string name="capture_mode_night">Night</string>
+    <string name="delete_button_alt">Delete</string>
+    <string name="delete_dialog">Delete current photo?</string>
+    <string name="delete_title">Confirm</string>
+    <string name="BIOMETRIC_ERROR_NO_HARDWARE">No biometric features available on this device.</string>
+    <string name="BIOMETRIC_ERROR_HW_UNAVAILABLE">Biometric features are currently unavailable.</string>
+    <string name="BIOMETRIC_ERROR_NONE_ENROLLED">No biometric data has been set.</string>
+    <string name="biometric_dialog_login">Biometric login for APPortal</string>
+    <string name="biometric_remember_or_not">Do you want to use biometric verification to remember your account?\n</string>
+    <string name="origin_account">"Original account : "</string>
+    <string name="new_account">"New account : "</string>
+    <string name="progressBar_0">Start to connecting</string>
+    <string name="progressBar_10">Data downloading</string>
+    <string name="progressBar_20">Create security connection</string>
+    <string name="progressBar_60">Setting data</string>
+    <string name="progressBar_80">Setting data success.</string>
+    <string name="progressBar_90">Environment setting</string>
+    <string name="progressBar_100">Successfully connected</string>
+    <string name="pref_header_suggestion">Suggestion</string>
+    <string name="suggestion_IME">Input</string>
+    <string name="logout_applist">Logout</string>
+    <string name="logout_applist2">Do you want to log out？</string>
+    <string name="interrupt_Connect">Interrupt connection</string>
+    <string name="interrupt_Connect2">Are you sure you want to terminate the last connection and log in？</string>
+    <string name="connection_end">Received a system request to terminate this connection.</string>
+</resources>

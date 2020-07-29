@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_resolution_entries">
+        <item>0.25</item>
+        <item>0.50</item>
+        <item>0.75</item>
+        <item>1</item>
+    </string-array>
+    <item name="fab_back" type="id" />
+    <item name="fab_home" type="id" />
+    <item name="fab_menu" type="id" />
+    <item name="fab_multi_app" type="id" />
+    <item name="fab_add_action" type="id" />
+    <item name="fab_replace_action" type="id" />
+    <item name="fab_remove_action" type="id" />
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright (c) 2013 The MITRE Corporation, All Rights Reserved.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this work except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+  -->
+<resources>
+    <dimen name="textSize_large">20dp</dimen>
+    <dimen name="textSize_xlarge">24dp</dimen>
+    <dimen name="textSize_medium">18dp</dimen>
+    <dimen name="textSize_small">12dp</dimen>
+    <dimen name="padding_normal">5dp</dimen>
+    <dimen name="padding_large">10dp</dimen>
+    <dimen name="appList_gridView_columnSize">65dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!--keyboard-->
+    <dimen name="keyboard_horizontalGap">1px</dimen>
+    <dimen name="keyboard_verticalGap">1px</dimen>
+    <dimen name="key_height_double">120dp</dimen>
+    <dimen name="key_height_bottom_row">53dip</dimen>
+    <dimen name="key_height_popup">50dip</dimen>
+    <dimen name="key_height_5row">42dip</dimen>
+    <dimen name="candidate_font_height">28sp</dimen>
+    <dimen name="candidates_view_height">42sp</dimen>
+
+    <dimen name="margin_xsmall">16dp</dimen>
+    <dimen name="margin_small">32dp</dimen>
+    <dimen name="margin_medium">48dp</dimen>
+    <dimen name="margin_large">64dp</dimen>
+    <dimen name="margin_xlarge">92dp</dimen>
+
+    <dimen name="spacing_small">4dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+
+    <dimen name="stroke_small">4dp</dimen>
+    <dimen name="stroke_medium">8dp</dimen>
+    <dimen name="stroke_large">12dp</dimen>
+
+    <dimen name="round_button_small">32dp</dimen>
+    <dimen name="round_button_medium">64dp</dimen>
+    <dimen name="round_button_large">92dp</dimen>
+
+    <dimen name="rect_button_margin">12dp</dimen>
+    <dimen name="rect_button_width">80dp</dimen>
+    <dimen name="rect_button_height">24dp</dimen>
+    <dimen name="shutter_button_margin">80dp</dimen>
+
+</resources>

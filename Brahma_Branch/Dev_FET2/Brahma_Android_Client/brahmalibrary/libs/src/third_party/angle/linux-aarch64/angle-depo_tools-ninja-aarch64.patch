@@ -1,0 +1,14 @@
+On linux-aarch64, we use host native ninja for now. 
+
+diff -Nru angle/depot_tools/ninja.orig angle/depot_tools/ninja
+--- angle/depot_tools/ninja.orig	2018-12-28 18:02:51.070867009 +0000
++++ angle/depot_tools/ninja	2018-12-28 18:07:56.513783181 +0000
+@@ -28,6 +28,8 @@
+         # bittage of the userspace install (e.g. when running 32-bit userspace
+         # on x86_64 kernel)
+         exec "${THIS_DIR}/ninja-linux${LONG_BIT}" "$@";;
++      aarch64)
++        exec "/usr/bin/ninja" "$@";;
+       *)
+         echo Unknown architecture \($MACHINE\) -- unable to run ninja.
+         print_help

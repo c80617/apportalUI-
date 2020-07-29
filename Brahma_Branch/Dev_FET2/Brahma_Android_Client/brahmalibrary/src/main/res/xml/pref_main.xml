@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        app:key="general_category"
+        app:title="@string/general">
+        <ListPreference
+            app:defaultValue="0.5"
+            app:dialogTitle="@string/title_resolution"
+            app:entries="@array/pref_resolution_entries"
+            app:entryValues="@array/pref_resolution_entries"
+            app:key="@string/key_resolution"
+            app:summary=""
+            app:title="@string/title_resolution" />
+        <SwitchPreference
+            app:key="@string/key_bandwidth"
+            app:title="@string/title_bandwidth" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/network_setting">
+        <EditTextPreference
+            android:key="@string/key_host"
+            android:defaultValue="61.20.215.170"
+            android:title="@string/title_host" />
+        <EditTextPreference
+            android:key="@string/key_port"
+            android:defaultValue="9768"
+            android:title="@string/title_port" />
+        <Preference
+            android:key="@string/key_deviceID"
+            android:title="@string/title_deviceID" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:key="about_category"
+        app:title="@string/pref_header_about">
+        <Preference
+            app:key="@string/title_version"
+            app:summary=""
+            app:title="@string/title_version" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:key="suggestion_category"
+        app:title="@string/pref_header_suggestion">
+        <Preference
+            app:key="title_suggestion1"
+            app:summary="@string/IME_message2"
+            app:title="@string/suggestion_IME" />
+    </PreferenceCategory>
+</PreferenceScreen>

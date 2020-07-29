@@ -1,0 +1,65 @@
+{
+  "stringTable": {
+    "0": "/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/.cxx/cmake/release/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android24 --gcc-toolchain=/home/a50077/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/a50077/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dnative_lib_EXPORTS -I/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/src/main/cpp/../../../libs/src/android-emu -I/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/src/main/cpp/../../../libs/src/android-emugl/host/libs/libOpenglRender -I/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/src/main/cpp/../../../libs/src/android-emugl/shared -I/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/src/main/cpp/../../../libs/src/android-emugl/shared/OpenglCodecCommon -I/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/src/main/cpp/../../../libs/src/android-emugl/host/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++14 -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "/home/a50077/Android/Sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake",
+    "/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/src/main/cpp/CMakeLists.txt",
+    "/home/a50077/Android/Sdk/ndk/21.0.6113669/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/home/a50077/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/.cxx/cmake/release/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/a50077/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/.cxx/cmake/release/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Release-arm64-v8a": {
+      "buildCommand": "/home/a50077/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/.cxx/cmake/release/arm64-v8a\" native-lib",
+      "buildType": "release",
+      "toolchain": "1476888540",
+      "abi": "arm64-v8a",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/src/main/cpp/native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/src/main/cpp/RenderServer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/src/main/cpp/OpenglEsStreamHandler.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/src/main/cpp/renderer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
+      "runtimeFiles": [
+        "/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/libs/arm64-v8a/libEGL_translator.so",
+        "/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/libs/arm64-v8a/libGLES_CM_translator.so",
+        "/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/libs/arm64-v8a/libGLES12Translator.so",
+        "/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/libs/arm64-v8a/libGLES_V2_translator.so",
+        "/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/libs/arm64-v8a/libandroid-emu-base.so",
+        "/home/a50077/Disk/01_Code/Brahma_Branch/Dev_FET2/Brahma_Android_Client/brahmalibrary/libs/arm64-v8a/libOpenglRender.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "1476888540": {
+      "cppCompilerExecutable": "/home/a50077/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2013 The MITRE Corporation， All Rights Reserved。
+
+  Licensed under the Apache License， Version 2。0 (the "License");
+  you may not use this work except in compliance with the License。
+  You may obtain a copy of the License at
+
+      http：//www。apache。org/licenses/LICENSE-2。0
+
+  Unless required by applicable law or agreed to in writing， software
+  distributed under the License is distributed on an "AS IS" BASIS，
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND， either express or implied。
+  See the License for the specific language governing permissions and
+  limitations under the License。
+  -->
+<resources>
+    <string name="app_name">FET eForm</string>
+    <string name="exit">離開</string>
+    <string name="brahmalogin_buttonlogin">登入</string>
+    <string name="brahmaActivity_toast_sessionMaxTimeout">APPortal連線已達到最大時限，請重新認證</string>
+    <string name="appRTC_toast_connection_start">連線…</string>
+    <string name="appRTC_toast_connection_notFound">找不到連線資訊!</string>
+    <string name="appRTC_toast_connection_finish">錯誤，連線已被關閉</string>
+    <string name="appRTC_toast_socketConnector_failUntrustedServer">錯誤的連線(不受伺服器信任的憑證)</string>
+    <string name="appRTC_toast_socketConnector_failSSLHandshake">SSL握手錯誤</string>
+    <string name="appRTC_toast_socketConnector_failSSL">錯誤的連線(檢查加密設定)</string>
+    <string name="appRTC_toast_socketConnector_404">錯誤的連線 (找不到伺服器)</string>
+    <string name="appRTC_toast_socketConnector_fail">錯誤的連線</string>
+    <string name="appRTC_toast_socketConnector_check">檢查您的網路連線或聯絡管理員</string>
+    <string name="appRTC_toast_socketConnector_nohttprespons">沒有Http Response</string>
+    <string name="appRTC_toast_socketConnector_success">已連線到主機</string>
+    <string name="appRTC_toast_brahmaAuthenticator_fail">認證失敗，再試一次</string>
+    <string name="appRTC_toast_brahmaAuthenticator_passwordChangeFail">認證失敗，再試一次</string>
+    <string name="appRTC_toast_brahmaAuthenticator_interrupted">連線被中斷</string>
+    <string name="appRTC_toast_brahmaAuthenticator_success">認證成功</string>
+    <string name="appRTC_toast_brahmaAuthenticator_bypassed">發現儲存的會話訊息</string>
+    <string name="appRTC_toast_brahmaReadyWait_fail">伺服器無法初始化VM</string>
+    <string name="appRTC_toast_brahmaReadyWait_success">VM已就緒，通道資訊查詢</string>
+    <string name="appRTC_toast_getIceServers_start">等待候補…</string>
+    <string name="appRTC_toast_clientHandler_start">建立…</string>
+    <string name="appRTC_toast_clientHandler_finish">遠端斷開; 退出</string>
+    <string name="appRTC_toast_sdpObserver_sendOffer">連線</string>
+    <string name="appRTC_toast_noguest">沒有可使用的機器</string>
+    <string name="appList_toast_notFound">無法找到要求的應用</string>
+    <string name="intentHandler_toast_noTelephonyCDMA">此設備無法撥打電話!</string>
+    <string name="intentHandler_toast_noTelephonyGSM">此設備無法撥打電話!\n(你可能需要檢查你的SIM卡)</string>
+
+    <!-- Activity dialog resources -->
+    <string name="authPrompt_title_normal">請輸入密碼</string>
+    <string name="authPrompt_title_passwordChange">更改密碼</string>
+    <string name="authPrompt_button_positive_text">提交</string>
+    <string name="authPrompt_button_negative_text">OK!</string>
+    <string name="authPrompt_button_negative_text_c">取消</string>
+    <string name="authPrompt_title_ip">輸入連線資訊</string>
+
+    <!-- AppRTC dialog resources -->
+    <string name="appRTC_progressDialog_title">開始…</string>
+    <string name="appRTC_progressDialog_message">連線被建立時請等候，如果伺服器需要設定你的環境，這可能需要一分鐘的時間。</string>
+
+    <!-- Menu resources -->
+    <string name="menu_title_preferences">設定</string>
+    <string name="menu_title_refreshAppListQuick">重整應用(quick)</string>
+    <string name="menu_title_refreshAppListFull">重整應用(full)</string>
+    <string name="menu_title_Camera">相機</string>
+    <string name="contextMenu_appList_addFavorite">新增至最愛</string>
+    <string name="contextMenu_appList_removeFavorite">從最愛中移除</string>
+    <string name="contextMenu_appList_createShortcut">建立捷徑</string>
+    <string name="contextMenu_appList_removeShortcut">移除捷徑</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">設定</string>
+    <string name="navigation_drawer_open">Open <navig></navig>ation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="all_machine_busy">連線已滿，請稍後連線…</string>
+    <!--handle exception-->
+    <string name="callactivity_locationHandler_initFailed">定位初始化失敗</string>
+    <string name="appRTC_toast_permission_check">請確認權限都已經開啟</string>
+    <string name="appRTC_toast_qrcode_failed">QRcode登入失敗</string>
+    <string name="get_app_list">取得APP資料中，請稍後</string>
+    <string name="login_wait">登入中，請稍後…</string>
+    <string name="scan_qrcode_error">QRcode錯誤！請確認QRcode是否正確</string>
+    <string name="check_input" >請檢查欄位</string>
+    <string name="check_account_or_password">請檢查您的帳號或密碼</string>
+    <string name="have_new_app_version">有新版本</string>
+    <string name="update_app_or_not">是否要更新您的應用程式？</string>
+    <string name="update">更新</string>
+    <string name="cancel">取消</string>
+    <string name="exit_app">退出應用程式?</string>
+    <string name="exit_app_description">若不更新版本將無法使用並且即將退出應用程式。</string>
+    <string name="mute">靜音</string>
+    <string name="open_gps">定位功能被關閉</string>
+    <string name="open_gps_description">是否前往設定頁面開啟定位功能?\n若不開啟定位功能，將無法使用相關功能。</string>
+    <string name="yes">確認</string>
+    <string name="check_input_host">請檢查Host欄位</string>
+    <string name="SCAN_OR_UPLOAD">掃描或上傳QRcode</string>
+    <string name="SELECT_QRCODE_METHOD">請選擇取得QRcode的方式</string>
+    <string name="SCAN_QRCODE">掃描QRcode</string>
+    <string name="UPLOAD_QRCODE">上傳QRcode</string>
+    <string name="NO_HAS_CAREMA_PERMISSION">相機功能被關閉!\n你將無法使用拍照功能。</string>
+    <string name="open_camera">相機功能被關閉</string>
+    <string name="open_camera_description">是否前往設定頁面開啟相機權限?\n若不開啟權限，將無法使用相關功能。</string>
+    <string name="open_permission">請開啟權限</string>
+    <string name="open_permission_description">偵測到部份權限尚未開啟，是否前往設定頁面開啟相關權限?\n若不開啟權限，將無法使用APP。</string>
+    <string name="is_not_secure">請檢查您的信箱格式</string>
+    <string name="welcome_connect_success">連線成功</string>
+    <string name="welcome_connect_failed">連線失敗。\n請檢查網路或確認權限是否開啟，並重新連線。</string>
+    <string name="failed_to_parse_json_response">無法解析JSON訊息</string>
+    <string name="biometric_dialog_cancel">取消</string>
+    <string name="biometric_dialog_title">驗證</string>
+    <string name="biometric_dialog_subtitle">驗證指紋後繼續執行。</string>
+    <string name="biometric_dialog_state_normal">指紋感應器</string>
+    <string name="biometric_dialog_state_failed">辨識失敗，請重新嘗試。</string>
+    <string name="biometric_dialog_state_error">驗證失敗， 請輸入密碼。</string>
+    <string name="biometric_dialog_state_error_enable_process">驗證錯誤， 設定失敗。</string>
+    <string name="biometric_dialog_state_succeeded">驗證成功。</string>
+    <string name="biometric_dialog_use_password">使用密碼</string>
+    <string name="appRTC_toast_login_failed">登入失敗，請稍後重試。</string>
+    <string name="brahmaActivity_toast_noAccessToken">缺少access token，請稍後重試。</string>
+    <!-- Titles for IME  -->
+    <string name="ime_name">VMI輸入法</string>
+    <string name="prefs_licensing">授權資訊</string>
+    <string name="prefs_vibrate_title">按鍵震動</string>
+    <string name="prefs_vibrate_key">prefs_vibrate</string>
+    <string name="prefs_sound_title">按鍵音效</string>
+    <string name="prefs_sound_key">prefs_sound</string>
+    <string name="prefs_ms3_key">prefs_ms3</string>
+    <string name="prefs_qwerty5row_title">五排英文鍵盤</string>
+    <string name="prefs_qwerty5row_key">prefs_qwerty5row</string>
+    <string name="prefs_qwerty5row_summary">是否於英文鍵盤上增加一排數字鍵 (會壓縮到鍵盤尺寸)</string>
+    <string name="str_needsreopen">為了使用硬體鍵盤，請您先將鍵盤收起再打開</string>
+    <string name="str_notavailable">無法使用</string><!-- Menu resources -->
+    <string name="menu_barcodescan">QR 碼輸入</string>
+    <string name="menu_voiceinput">語音輸入</string>
+    <string name="menu_settings">輸入法設定</string>
+    <string name="menu_switchIME">切換輸入法</string><!-- Barcode Activity -->
+    <string name="barcode_missing">您需要安裝 ZXing 條碼掃描器以使用 QR 碼輸入功能。您想從 Market 上安裝嗎？</string><!-- Voice Activity -->
+    <string name="voice_missing">您的裝置必須要有 Google 語音輸入支援 (需要 Android 系統支援)</string>
+    <string name="voice_speaknow">請說話</string>
+    <string name="voice_chooseone">請選擇一個</string>
+    <string name="suggestion">建議</string>
+    <string name="update_verfication">更新驗證?</string>
+    <string name="version_check">檢查版本…</string>
+    <string name="checking">檢查中…</string>
+    <string name="reconnecting">重新連線中…</string>
+    <string name="check_permission">檢查權限…</string>
+    <string name="check_network">檢查網路…</string>
+    <string name="reconnect">重新連線</string>
+    <string name="version">版本：</string>
+    <string name="channel_error_title">頻道錯誤</string>
+    <string name="reset_password">重設密碼</string>
+    <string name="IME_message">請前往\"管理鍵盤\"設定頁面，啟用：Gboard輸入法並且設定為預設輸入法。\n\n若使用其他輸入法可能造成無法預期之錯誤，是否直接前往修改設定？</string>
+    <string name="verficiation">驗證</string>
+    <string name="verficiation_message">使用生物辨識登入。\n使用者帳號 ： </string>
+    <string name="no_bio_record">此項裝置沒有紀錄指紋</string>
+    <string name="check_input_port">請確認輸入之埠號是否正確</string>
+    <string name="title_activity_settings">設定</string>
+
+    <string name="pref_ringtone_silent">靜音</string>
+    <string name="summary_choose_ringtone">選擇通知音效</string>
+
+    <string name="title_resolution">選擇解析度</string>
+    <string name="key_resolution">Resolution</string>
+    <string name="title_version">版本</string>
+    <string name="pref_header_about">關於</string>
+
+    <string name="password">密碼</string>
+    <string name="user">帳號</string>
+    <string name="port">埠</string>
+    <string name="host">主機</string>
+    <string name="general">一般</string>
+    <string name="fingerprint">請使用生物辨識登入</string>
+    <string name="title_bandwidth">網路流量監控</string>
+    <string name="key_bandwidth">Bandwidth</string>
+    <string name="Location_message">若不給予位置權限，將無法取得正確的位置資訊。</string>
+    <string name="IME_message2">建議使用：Gboard輸入法，若使用其他輸入法可能造成無法預期之錯誤。</string>
+    <string name="network_setting">網路設定</string>
+    <string name="title_host">主機</string>
+    <string name="title_deviceID">裝置識別碼</string>
+    <string name="key_host">Host</string>
+    <string name="key_deviceID">Device ID</string>
+    <string name="copy_success">複製成功</string>
+    <string name="key_port">Port</string>
+    <string name="title_port">埠</string>
+    <string name="please_open_permission">請確認權限已授予後重新登入。</string>
+    <string name="https_no_response">服務目前無法連線，請稍後重試。</string>
+    <string name="success">拍照成功</string>
+    <string name="fail">拍照失敗</string>
+    <string name="capture_button_alt">Capture</string>
+    <string name="switch_camera_button_alt">Switch camera</string>
+    <string name="gallery_button_alt">Gallery</string>
+    <string name="back_button_alt">Back</string>
+    <string name="share_button_alt">Share</string>
+    <string name="share_hint">Share using</string>
+    <string name="capture_mode_camera">Camera</string>
+    <string name="capture_mode_hdr">HDR</string>
+    <string name="capture_mode_night">Night</string>
+    <string name="delete_button_alt">Delete</string>
+    <string name="delete_dialog">Delete current photo?</string>
+    <string name="delete_title">Confirm</string>
+
+    <string name="BIOMETRIC_ERROR_NO_HARDWARE">此設備不支援生物辨識功能。</string>
+    <string name="BIOMETRIC_ERROR_HW_UNAVAILABLE">生物辨識功能目前無法使用。</string>
+    <string name="BIOMETRIC_ERROR_NONE_ENROLLED">沒有尚未設定任何生物辨識資料。</string>
+    <string name="biometric_dialog_login">登入APPortal</string>
+    <string name="biometric_remember_or_not">是否要使用生物辨識紀錄帳號以便下次登入？\n</string>
+    <string name="origin_account">"舊帳號: "</string>
+    <string name="new_account">"新帳號: "</string>
+    <string name="progressBar_0">開始連線</string>
+    <string name="progressBar_10">資料下載中</string>
+    <string name="progressBar_20">建立安全連線</string>
+    <string name="progressBar_60">設定資料中</string>
+    <string name="progressBar_80">資料設定成功</string>
+    <string name="progressBar_90">環境設定中</string>
+    <string name="progressBar_100">連線成功</string>
+    <string name="pref_header_suggestion">建議</string>
+    <string name="suggestion_IME">輸入法</string>
+    <string name="logout_applist">登出</string>
+    <string name="logout_applist2">確定要登出系統？</string>
+    <string name="interrupt_Connect">中斷連線</string>
+    <string name="interrupt_Connect2">是否確定要中斷上一個連線後登入？</string>
+    <string name="connection_end">收到系統請求中斷此次連線</string>
+</resources>

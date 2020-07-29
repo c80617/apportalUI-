@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient_0"
+    android:fitsSystemWindows="true">
+
+    <ImageButton
+        android:id="@+id/imageIPinfo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/fet"
+        android:contentDescription="@drawable/fet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageIPinfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="FET eForm"
+        android:textColor="#5b5b5b"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageIPinfo" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ad_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginTop="40dp"
+        android:onClick="onClick_adlogin"
+        android:padding="10dp"
+        android:stateListAnimator="@null"
+        android:elevation="0dp"
+        android:text="@string/brahmalogin_buttonlogin"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:backgroundTint="#CE0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_app_name" />
+
+    <ImageButton
+        android:id="@+id/image_touchid"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/face_id"
+        android:contentDescription="@drawable/face_id"
+        android:gravity="center_horizontal"
+        android:onClick="onClick_touchID"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ad_login" />
+
+    <TextView
+        android:id="@+id/tv_touchid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_touchid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/fingerprint"
+        android:textColor="#5b5b5b"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_touchid" />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView2"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="30dp"-->
+    <!--        android:layout_marginTop="28dp"-->
+    <!--        android:text="Username"-->
+    <!--        android:textColor="@color/text_color"-->
+    <!--        android:textSize="18sp"-->
+    <!--        app:layout_constraintHorizontal_weight="2"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintRight_toLeftOf="@+id/Username"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/tv_touchid" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/Username"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="28dp"-->
+    <!--        android:layout_marginEnd="30dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:inputType="text"-->
+    <!--        android:textColor="@color/text_color2"-->
+    <!--        app:layout_constraintBaseline_toBaselineOf="@+id/textView2"-->
+    <!--        app:layout_constraintHorizontal_weight="5"-->
+    <!--        app:layout_constraintLeft_toRightOf="@+id/textView2"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/tv_touchid" />-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView3"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="30dp"-->
+    <!--        android:layout_marginTop="15dp"-->
+    <!--        android:text="DeviceID"-->
+    <!--        android:textColor="@color/text_color"-->
+    <!--        android:textSize="18sp"-->
+    <!--        app:layout_constraintHorizontal_weight="2"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintRight_toLeftOf="@id/deviceid"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textView2" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/deviceid"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="15dp"-->
+    <!--        android:layout_marginEnd="30dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:textColor="@color/text_color2"-->
+    <!--        app:layout_constraintBaseline_toBaselineOf="@+id/textView3"-->
+    <!--        app:layout_constraintHorizontal_weight="5"-->
+    <!--        app:layout_constraintLeft_toRightOf="@+id/textView3"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/Username" />-->
+
+    <ImageButton
+        android:id="@+id/setting"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/setting"
+        android:contentDescription="@drawable/setting"
+        android:onClick="onClick_setting"
+        android:rotation="20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/appVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="@string/version"
+        android:textColor="#6c6c6c"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
